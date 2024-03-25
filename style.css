@@ -33,7 +33,6 @@ h1 {
     ;
     /* Menambahkan border dengan ketebalan 2px dan warna hitam */
     padding: 3px;
-    /* Menambahkan padding untuk jarak antara teks dan border */
 }
 
 h1 {
@@ -71,7 +70,7 @@ table th,
 table td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
 }
 
 img {
