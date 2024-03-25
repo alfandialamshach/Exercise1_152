@@ -1,15 +1,80 @@
 body {
-    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    border-bottom: 1px solid #ccc;
+h1 {
+    margin-top: 0;
+    /* Menghilangkan margin atas */
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 40px;
+    /* Ukuran font */
+    text-align: center;
+    /* Posisi teks menjadi tengah */
+    border: 2px solid #000;
+    /* Menambahkan border dengan ketebalan 2px dan warna hitam */
+    padding: 3px;
+    /* Menambahkan padding untuk jarak antara teks dan border */
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.kotak {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+ul,
+ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
 }
 
 button {
-    border: 1px solid #ccc;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
 
-.content {
-    border: 1px solid #ccc;
+button:hover {
+    background-color: #0056b3;
 }
