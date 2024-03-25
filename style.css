@@ -17,13 +17,17 @@ body {
 }
 
 h1 {
-    /* Menghilangkan margin atas */
+    width: 200px;
+    height: 750px;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
     font-size: 40px;
     /* Ukuran font */
     ;
     text-align: center;
     /* Posisi teks menjadi tengah */
-    border: 2px solid #000;
+    border: 3px solid #000;
     height: 150px;
     width: 200px;
     ;
